@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+}
+/* FUENTES DE LETRAS */
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+#todo {
+    background-color: rgb(51, 51, 51);
+    height: 100vh;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    background-image: url(img/cataratas-en-brasil.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+
+/* ENCABEZADO */
+#encabezado{
+    background-color: rgb(2, 167, 2);
+    height: 15vh;
+    color: black;
+    display: flex;
+    align-items: center;
+    font-family: fantasy;
+}
+#encabezado > h1{
+    margin-left: 12%;
+}
+
+/* CONTENIDOS */
+#contenido{
+    color: rgb(0, 204, 0);
+    margin-left: 12%;
+    margin-top: 3%;
+}
+
+input{
+    margin-bottom: 3%;
+}
+
+#intro > h3{
+    padding-bottom: 1%;
+}
+
